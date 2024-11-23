@@ -25,18 +25,27 @@ background-position: center calc(50% - 60px);
         .title {
             font-size: 3.5rem;
             margin-bottom: 2rem;
+            @media only screen and (min-width: 320px) and (max-width: 900px) {
+                font-size: 2.5rem;
+            }
         }
         .subtitle {
             font-size: 1.4rem;
             margin-bottom: 2rem;
+            @media only screen and (min-width: 320px) and (max-width: 900px) {
+                font-size: 1rem;
+            }
         }
     }
 }
 
 span {
-    font-size: 1.5rem;
-    color:#5e0429;
-    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.512);
+    font-size: 1.6rem;
+    color:#ffffff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.512);
+    @media only screen and (min-width: 320px) and (max-width: 900px) {
+        font-size: 1.2rem;
+    }
 }
 
 .hero::before {

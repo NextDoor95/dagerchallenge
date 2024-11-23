@@ -71,17 +71,23 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); // Añade una ligera sombra difusa
     @media only screen and (min-width: 320px) and (max-width: 900px) {
         left: 0;
-        padding: 4rem;
+        padding: 1rem;
     }
     h3 {
         margin-bottom: 2rem;
         color: #ddd;
         font-size: 32px;
         margin-bottom: 10px;
+        @media only screen and (min-width: 320px) and (max-width: 900px) {
+            font-size: 1rem;
+        }
     }
     p {
         margin-top: 2rem;
         color: #ddd;
         font-size: 24px;
+        @media only screen and (min-width: 320px) and (max-width: 900px) {
+            font-size: 0.6rem;
+        }
     }
 }

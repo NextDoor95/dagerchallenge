@@ -18,7 +18,7 @@
 
     .top {
         display: flex;
-		flex-direction: row;
+		flex-direction: col;
 		align-items: flex-start;
 		justify-content: space-between;
 		padding-top: 8vh;
@@ -26,6 +26,7 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			display: none;
 		}
 		.left {
 			color: #37af65;
