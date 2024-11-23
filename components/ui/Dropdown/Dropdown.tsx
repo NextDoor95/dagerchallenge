@@ -1,6 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 
+import Link from 'next/link'
+
 import Image from 'next/image'
 import Instagram from "../../../public/socials/instagram.png"
 import Discord from "../../../public/socials/discord.png"
@@ -36,7 +38,9 @@ function Dropdown() {
 
     return (
         <div className='wrapper'>
+            
             <div className="dropdown-menu" ref={dropdownRef}>
+                
             {/* Botón para abrir/cerrar el dropdown */}
                 <button onClick={toggleDropdown} className="dropdown-button">
                     Redes Sociales
@@ -177,7 +181,11 @@ function Dropdown() {
                 </li>
             </ul>
             </div>
+            
         )}
+        <Link className="dropdown-button" href="mailto:portafoliosdesarrollador@gmail.com" target="_blank" rel='noreferrer'>
+                                    Contacto
+                            </Link>
         </div>
     </div>
     )

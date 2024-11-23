@@ -19,10 +19,9 @@ function Navbar() {
   const [activeIndex, setActiveIndex] = useState(0);  // Almacena el índice del elemento activo
 
   const navItems = [
-    { text: t('navbar.myStory'), href: "/" },
-    { text: t('navbar.fragments'), href: "/" },
-    { text: t('navbar.notes'), href: "/" },
-    { text: t('navbar.videos'), href: "/" }
+    { text: t('navbar.myStory'), href: "/#inicio" },
+    { text: t('navbar.fragments'), href: "/#about" },
+    { text: t('navbar.videos'), href: "/#gamezone" }
   ]
 
   const size: Size = useWindowSize()
@@ -113,13 +112,10 @@ function Navbar() {
             <Link href="/">
             Home
             </Link>
-            <Link href="/">
+            <Link href="/#about">
             About
             </Link>
-            <Link href="/">
-            My interest
-            </Link>
-            <Link href="/">
+            <Link href="/#gamezone">
             Game Zone
             </Link>
             <div>

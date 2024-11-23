@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function GameZone() {
   return (
-    <section className='game'>
+    <section className='game' id='gamezone'>
       <h2>Esta es mi zona... mi zona de videojuegos</h2>
       <Link className="translation" rel='noreferrer' target='_blank'
 

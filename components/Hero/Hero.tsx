@@ -11,7 +11,7 @@ function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section className='hero'>
+    <section className='hero' id="inicio">
       
         <motion.div
           className="bubble"
@@ -46,7 +46,14 @@ function Hero() {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 2 }}
                     >{t('hero.heroText')}</motion.p>
-                    <Dropdown/>
+                    <motion.div 
+                    initial={{ opacity: 0  }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    className="dager">
+                      <Dropdown/>
+                    </motion.div>
+                    
                 </div>
                 
       <motion.div

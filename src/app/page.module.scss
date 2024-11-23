@@ -27,11 +27,8 @@
   }
 }
 
-.main {
-  background-image: url('../../public/jhin4.jpg');
-  background-size: cover;
-  background-position: center;
-  background-position: center calc(50% - 60px); 
+main {
+
   display: flex;
   flex-direction: column;
   gap: 32px;

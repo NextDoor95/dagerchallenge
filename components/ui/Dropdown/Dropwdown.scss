@@ -4,8 +4,8 @@
 
 .dropdown-menu {
     position: relative;
-    display: inline-block;
-    width: 230px;
+    display: flex;
+    gap: 20px;
   
     .dropdown-button {
       padding: 10px 15px;
