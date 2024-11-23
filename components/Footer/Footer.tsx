@@ -1,9 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-
-import Resiliente from '/public/resiliente.svg'
-import Speezard from '/public/speezard.svg'
 
 function Footer() {
 
@@ -22,20 +18,10 @@ function Footer() {
                         Co-building web3 <br/> in minimum viable community
                     </p>
                     <Link className="logo" rel='noreferrer' target='_blank' href="https://twitter.com/Resilientes_W3">
-                        <Image
-                            src={Resiliente}
-                            alt="Resilientes-logo"
-                            height={50}
-                            className='image'
-                        />
+                     ddfgdg
                     </Link>
                     <Link className="logo" rel='noreferrer' target='_blank' href="https://www.speezard.io/">
-                        <Image
-                            src={Speezard}
-                            alt="Speezard-logo"
-                            height={50}
-                            className='image'
-                        />
+                    dfgdfg
                     </Link>
                 </div>
                 <div className="right">
