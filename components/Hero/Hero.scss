@@ -1,0 +1,48 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        max-width: 840px;
+        padding: 4rem;
+        border-radius: 8px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0);
+        .title {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+        }
+        .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+span {
+    font-size: 1.5rem;
+    color:#a84cef;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #000000;
+
+    mask-image: url('../../public/ink_lv2.gif');
+    mask-size: cover;
+    mask-position: center;
+}
+
+.bubble {
+    position: absolute;
+    top: -1660; /* Posiciona el elemento en la parte superior */
+    left: 0; /* Posiciona el elemento en la esquina izquierda */
+    transform: none; /* Elimina transformaciones que centran el elemento */
+    z-index: -1;
+}
+

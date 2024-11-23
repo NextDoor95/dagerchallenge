@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "myStory": "Home",
+        "fragments": "About",
+        "notes": "My interest",
+        "videos": "Game Zone"
+    },
+    "hero": {
+        "heroTitle": "Hey! I'm Dager",
+        "heroDescription": "+8 years of experience.",
+        "herospan": " Senior Full-stack developer and content creator focused on programming ",
+        "heroDescription2": "based in Buenos Aires, Argentina 🇦🇷.",
+        "heroText": "I'm passionate about SOLID code, the world of guitars, cats, and giant cucumbers 🥒."
+    }
+}
