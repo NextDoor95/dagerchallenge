@@ -3,7 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../../public/jhin4.jpg');
+background-size: cover;
+background-position: center;
+background-position: center calc(50% - 60px); 
     .content {
+        background-color: rgba(0, 0, 0, 0.4); // Ajusta la opacidad
+    backdrop-filter: blur(2px); // Difumina el fondo detrás del elemento
+    -webkit-backdrop-filter: blur(10px); // Compatibilidad con navegadores
+    border-radius: 15px; // Suaviza aún más los bordes
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); // Añade una ligera sombra difusa
         max-width: 840px;
         padding: 4rem;
         border-radius: 8px;
@@ -26,7 +35,8 @@
 
 span {
     font-size: 1.5rem;
-    color:#a84cef;
+    color:#5e0429;
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.512);
 }
 
 .hero::before {

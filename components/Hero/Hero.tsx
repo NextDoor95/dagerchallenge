@@ -25,17 +25,21 @@ function Hero() {
             >
                 <Image src={bubble} alt="Bubble" />
       </motion.div>
-      <div className="content">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5, delay: 2  }}
+        className="content">
                     <motion.h2 
                         initial={{ opacity: 0, scale: 0.8  }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}
+                        transition={{ duration: 0.5}}
                         className='title'>{t('hero.heroTitle')}</motion.h2>
 
 <motion.h3 
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
-  transition={{ duration: 1.5 }}
+  transition={{ duration: 1.5, delay: 0.5  }}
   className="subtitle">
   {t("hero.heroDescription")} 
   <span>{t("hero.herospan")}</span> 
@@ -54,7 +58,7 @@ function Hero() {
                       <Dropdown/>
                     </motion.div>
                     
-                </div>
+                </motion.div>
                 
       <motion.div
                 initial={{ opacity: 0, scale: 0.4, x: 100  }}

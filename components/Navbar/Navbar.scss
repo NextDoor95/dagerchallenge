@@ -8,14 +8,14 @@
 	display: flex;
 	justify-content: space-around;
 	z-index: 20;
-	background-color: rgb(0, 0, 0, 0.6);
+	background-color: rgb(0, 0, 0, 0.8);
 	border-bottom: 1px solid transparent;
 	border-image: linear-gradient(35deg,#37af65 ,#5e0429) 1;
 	backdrop-filter: blur(24px);
 	@media only screen and (min-width: 320px) and (max-width: 900px) {
 		padding: 8px 32px;
 		justify-content: space-between;
-		ackground-color: rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.2);
 	}
 	
 		.mobile {
@@ -29,7 +29,7 @@
 		line-height: 4rem;
 		padding-bottom: 2rem;
 		position: fixed;
-		color: #6A0DAD;
+		color: #ddd;
 		background-color: rgb(0, 0, 0);
 		right: 0;
 		top: 0;
