@@ -69,6 +69,10 @@
     margin: 20px;
     text-align: center;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); // Añade una ligera sombra difusa
+    @media only screen and (min-width: 320px) and (max-width: 900px) {
+        left: 0;
+        padding: 4rem;
+    }
     h3 {
         margin-bottom: 2rem;
         color: #ddd;
