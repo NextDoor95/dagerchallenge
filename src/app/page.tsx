@@ -13,6 +13,7 @@ export default function Home() {
       <Hero/>
       </main>
       <About />
+      <GameZone />
       <Footer/>
     </>
   );

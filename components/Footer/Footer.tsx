@@ -15,13 +15,13 @@ function Footer() {
             <div className="top">
                 <div className="left">
                     <p>
-                        Co-building web3 <br/> in minimum viable community
+                        La vida es una garcha <br/> Por eso me encanta vivir
                     </p>
-                    <Link className="logo" rel='noreferrer' target='_blank' href="https://twitter.com/Resilientes_W3">
-                     ddfgdg
+                    <Link className="logo" rel='noreferrer' target='_blank' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+                        Lorenzo insomnio o como se escriba 
                     </Link>
-                    <Link className="logo" rel='noreferrer' target='_blank' href="https://www.speezard.io/">
-                    dfgdfg
+                    <Link className="logo" rel='noreferrer' target='_blank' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+                        Lorenzo insomnio o como se escriba parte dos
                     </Link>
                 </div>
                 <div className="right">
