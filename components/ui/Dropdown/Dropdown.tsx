@@ -168,11 +168,11 @@ function Dropdown() {
                 
                 <li>
                 <a
-                    href="https://www.youtube.com/c/DagerXIV"
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    🥒Dale pa, cuantas tenés
+                    🥒chistes de ya sabes🥒
                 </a>
                 </li>
             </ul>

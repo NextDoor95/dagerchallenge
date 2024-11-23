@@ -28,7 +28,7 @@
 			align-items: center;
 		}
 		.left {
-			color: #8e8e8e;
+			color: #37af65;
 			line-height: 1.6rem;
 			text-align: center;
 			display: flex;
@@ -44,7 +44,7 @@
 					border-radius: 10px;
 				}
 				&:hover {
-					opacity: 1;
+					opacity: 1.5;
 				}
 			}
 			p {
@@ -64,6 +64,7 @@
 				gap: 20px;
 			}
             .col {
+				color: #ddd;
                 display: flex;
 				flex-direction: column;
 				text-align: left;
@@ -76,7 +77,7 @@
 						transition: all 0.1s ease-out;
 						cursor: pointer;
 						&:hover {
-							color: rgba( 55, 175, 101, 1 );
+							color: #a84cef;
 						}
 					}
 				}
@@ -84,7 +85,8 @@
         }
     }
 	.bottom {
-		border-top: 1px solid #127aec;
+		border-top: 1px solid transparent;
+		border-image: linear-gradient(35deg,#37af65 ,#5e0429) 1;
 		padding: 30px 0;
 		margin-top: 40px;
 		display: flex;
@@ -122,7 +124,7 @@
 					color: #8e8e8e;
 					transition: all 0.1s ease-out;
 					&:hover {
-						color: rgba( 55, 175, 101, 1 );
+						color: #37af65;
 					}
 				}
 				.bug {
@@ -132,7 +134,7 @@
 					font-family: sans-serif;
 				}
 				&:hover {
-					color: rgba( 55, 175, 101, 1 );
+					color: #a84cef;
 				}
 			}
 			

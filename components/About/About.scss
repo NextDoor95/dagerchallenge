@@ -1,3 +1,83 @@
 .about {
     background-color: black;
+    height: 100vh;
+    
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .iconstack{
+            height: 265px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            .icon-wrap {
+                border-radius: 10px;
+                
+                .iconlogo{
+                    opacity: 0.4;
+                    border-radius: 10px;
+                    transition: opacity 0.3s ease-in-out; 
+                    &:hover {
+                        opacity: 1; /* Totalmente oscuro al hacer hover */
+                    }
+                    @media only screen and (min-width: 320px) and (max-width: 767px) {
+                        border-radius: 5px;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+	color: rgba( 55, 175, 101, 1 );
+    margin-left: 10px;
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+	color: rgba( 55, 175, 101, 1 );
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.textZone {
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -600px;
+    left: 23%;
+    background-color: rgba(0, 0, 0, 0.4); // Ajusta la opacidad
+    backdrop-filter: blur(10px); // Difumina el fondo detrás del elemento
+    -webkit-backdrop-filter: blur(10px); // Compatibilidad con navegadores
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 15px; // Suaviza aún más los bordes
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); // Añade una ligera sombra difusa
+    h3 {
+        margin-bottom: 2rem;
+        color: #ddd;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-top: 2rem;
+        color: #ddd;
+        font-size: 24px;
+    }
 }
